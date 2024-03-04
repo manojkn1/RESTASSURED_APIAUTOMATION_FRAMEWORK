@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+        name="All Test Suite"><test verbose="2" preserve-order="true"
+                                    name="C:/Users/Admin/IdeaProjects/RestAssuredFramework">
+    <classes><class name="com.testing.Tests.Crud.CreateBooking">
+        <methods><include name="TC1CreateBookingPositive"/>
+        </methods></class><class name="com.testing.Utils.DDT001"><methods>
+        <include name="testLoginData"/></methods></class>
+    </classes></test>
+</suite>
