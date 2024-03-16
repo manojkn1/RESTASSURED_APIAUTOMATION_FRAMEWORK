@@ -49,8 +49,8 @@ public class TC_Integration extends BaseTest {
          requestSpecification.basePath(APIConstants.CREATE_UPDATE_URL+"/"+bookingId);
          response= RestAssured.given().spec(requestSpecification).cookie("token",token)
                  .body(payloadManager.updatePayload()).when().put();
-         validatableResponse =response.then().log().all();
-         validatableResponse.statusCode(200);
+        validatableResponse =response.then().log().all();
+        validatableResponse.statusCode(200);
         String jsonString= response.asString();
 
         // Validate Response ( JSON String -> Object)

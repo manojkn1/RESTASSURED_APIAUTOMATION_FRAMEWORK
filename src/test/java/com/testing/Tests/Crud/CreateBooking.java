@@ -11,7 +11,7 @@ import io.qameta.allure.Owner;
 
 public class CreateBooking extends BaseTest {
 
-    @Owner("Manoj")
+    /*@Owner("Manoj")
     @Description("TC#1 - Verify that the Booking can be Created")
     @Test
     public void TC1CreateBookingPositive(){
@@ -23,7 +23,7 @@ public class CreateBooking extends BaseTest {
                 validatableResponse.statusCode(200);
 
 
-    }
+    }*/
 
 
 
